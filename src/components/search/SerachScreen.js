@@ -13,6 +13,7 @@ export const SearchScreen = ({ history }) => {
     const [ formValues, handleInputChange ] = useForm({
         searchText: q
     });
+    
     const { searchText } = formValues;
     
     const heroesFiltered = useMemo(() => getHeroesByName( q ), [q])
