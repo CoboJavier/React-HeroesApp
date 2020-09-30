@@ -26,7 +26,7 @@ export const LoginScreen = ({history}) => {
     
     return (
         <div className="container mt-5">
-        <h1>Login Screen</h1>
+        <h1>Welcome</h1>
         <hr/>
 
         <button
@@ -34,7 +34,7 @@ export const LoginScreen = ({history}) => {
         onClick={handleClick}
         >
 
-            Login
+            Enter
         </button>
         
         
